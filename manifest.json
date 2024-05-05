@@ -1,0 +1,17 @@
+{
+  "description": "Proactively changes YouTube shorts URLs to regular video URLS",
+  "manifest_version": 2,
+  "name": "YouTube Pants",
+  "version": "1.0",
+
+  "background":{
+      "scripts": ["background.js"]
+    },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.youtube.com/*"
+  ]
+
+}
